@@ -13,8 +13,8 @@ $lang_common = array(
 
 // Notices
 'Bad request'				=>	'Requête invalide. Le lien demandé est incorrect ou caduc.',
-'No view'					=>	'Vous n’avez malheureusement pas l’autorisation de consulter ces forums.',
-'No permission'				=>	'Vous n’avez malheureusement pas l’autorisation d’accéder à cette page.',
+'No view'					=>	'Vous n’avez pas l’autorisation de consulter ces forums.',
+'No permission'				=>	'Vous n’avez pas l’autorisation d’accéder à cette page.',
 'CSRF token mismatch'		=>	'Confirmation du jeton de sécurité impossible. Le plus probable est que trop de temps s’est écoulé entre votre entrée dans la page et le moment où vous avez cliqué. Si c’est le cas et que vous souhaitez poursuivre, veuillez cliquer sur le bouton Confirmer. Sinon, cliquez sur Annuler pour retourner d’où vous venez.',
 'No cookie'					=>	'Vous semblez identifié correctement, bien qu’aucun cookie n’ait été enregistré. Merci de vérifier votre paramétrage et si nécessaire d’autoriser les cookies pour ce site.',
 
@@ -34,14 +34,14 @@ $lang_common = array(
 'Today'						=>	'Aujourd’hui',
 'Yesterday'					=>	'Hier',
 'Forum message'				=>	'Message du forum',
-'Maintenance warning'		=>	'<strong>Attention ! %s activé.</strong> NE VOUS DECONNECTEZ PAS car vous ne pourrez pas vous reconnecter.',
+'Maintenance warning'		=>	'<strong>Attention ! %s activé.</strong> NE VOUS DÉCONNECTEZ PAS car vous ne pourrez pas vous reconnecter.',
 'Maintenance mode'			=>	'En maintenance ',
 'Redirecting'				=>	'Redirection',
 'Forwarding info'			=>	'Vous allez être automatiquement renvoyé vers une autre page dans %s %s.',
 'second'					=>	'seconde',	// singular
 'seconds'					=>	'secondes',	// plural
 'Click redirect'			=>	'Cliquez ici si vous ne souhaitez pas attendre (ou si votre navigateur ne vous redirige pas automatiquement)',
-'Invalid e-mail'			=>	'L’adresse e-mail que vous avez saisie est invalide.',
+'Invalid e-mail'			=>	'L’adresse de courriel que vous avez saisie est invalide.',
 'New posts'					=>	'Nouveaux messages',	// the link that leads to the first new post
 'New posts title'			=>	'Trouver les sujets contenant des messages postérieurs à votre dernière visite.',	// the popup text for new posts links
 'Active topics'				=>	'Derniers sujets',
@@ -50,7 +50,7 @@ $lang_common = array(
 'Unanswered topics title'	=>	'Voir les sujets sans réponse.',
 'Username'					=>	'Utilisateur',
 'Registered'				=>	'Inscrit',
-'Write message'				=>	'Ecrire un message:',
+'Write message'				=>	'Écrire un message:',
 'Forum'						=>	'Forum',
 'Posts'						=>	'Messages',
 'Pages'						=>	'Pages',
@@ -63,13 +63,13 @@ $lang_common = array(
 'Image link'				=>	'image',	// This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
 'wrote'						=>	'a écrit',	// For [quote]'s (e.g., User wrote:)
 'Code'						=>	'Code',		// For [code]'s
-'Forum mailer'				=>	'%s Mailer',	// As in "MyForums Mailer" in the signature of outgoing e-mails
-'Write message legend'		=>	'Composez votre message',
+'Forum mailer'				=>	'%s Serveur',	// As in "MyForums Mailer" in the signature of outgoing e-mails
+'Write message legend'		=>	'Rédigez votre message',
 'Required information'		=>	'Information obligatoire',
 'Reqmark'					=>	'*',
 'Required'					=>	'(Obligatoire)',
 //'Required warn'				=>	'Les champs marqués %s doivent être remplis avant d’envoyer ce formulaire.',
-'Required warn'				=>	'Tous le champs doivent être remplis avant d’envoyer ce formulaire, ou alors vous avez utilisé la fonction copier/coller qui n\'est pas supporté par l\'éditer de texte.',
+'Required warn'				=>	'Tous le champs doivent être remplis avant d’envoyer ce formulaire, ou alors vous avez utilisé la fonction copier/coller qui n\'est pas supportée par l\'éditer de texte.',
 'Crumb separator'			=>	' » ', // The character or text that separates links in breadcrumbs
 'Title separator'			=>	' – ',
 'Page separator'			=>	' ', //The character or text that separates page numbers
@@ -86,7 +86,7 @@ $lang_common = array(
 'Item info single'			=>	'%s [ %s ]',
 'Item info plural'			=>	'%s [ %s à %s sur %s ]', // e.g. Topics [ 10 to 20 of 30 ]
 'Info separator'			=>	' ', // e.g. 1 Page | 10 Topics
-'Powered by'				=>	'Propulsé par <strong>%s</strong>, supporté par <strong>%s</strong>.',
+'Powered by'				=>	'Propulsé par <strong>%s</strong>, soutenu par <strong>%s</strong>.',
 'Maintenance'				=>	'Maintenance',
 
 // CSRF confirmation form
@@ -109,8 +109,8 @@ $lang_common = array(
 'BBCode error 4'			=>	'[%s] est ouvert dans lui-même, ce qui est interdit',
 'BBCode error 5'			=>	'[%1$s] trouvé sans  [/%1$s] correspondant',
 'BBCode error 6'			=>	'La section attribut du tag [%s] est vide',
-'BBCode nested list'		=>	'Les tags [list] ne peuvent pas être imbriqués',
-'BBCode code problem'		=>	'Il y a un problème dans vos tags [code]',
+'BBCode nested list'		=>	'Les balises [list] ne peuvent pas être imbriqués',
+'BBCode code problem'		=>	'Il y a un problème dans vos balises [code]',
 
 // Stuff for the navigator (top of every page)
 'Index'						=>	'Accueil',
@@ -124,12 +124,12 @@ $lang_common = array(
 'Not logged in'				=>  'Non connecté',
 'Profile'					=>	'Profil',
 'Logout'					=>	'Déconnexion',
-'Logged in as'				=>	'Connecté sous %s.',
+'Logged in as'				=>	'Connecté en tant que %s.',
 'Admin'						=>	'Administration',
 'Last visit'				=>	'Dernière visite %s',
-'Mark all as read'			=>	'Marquer en Lu tous les sujets',
+'Mark all as read'			=>	'Marquer comme Lu tous les sujets',
 'Login nag'					=>	'<a href="login.php" title="Se connecter"> Se connecter</a> <a href="register.php" title="S\'inscrire">S\'inscrire</a>',
-'New reports'				=>	'Nouveaux rapports',
+'New reports'				=>	'Nouveaux signalements',
 
 // Alerts
 'New alerts'				=>	'Nouvelles alertes',
@@ -138,7 +138,7 @@ $lang_common = array(
 'Updates failed'			=>	'La dernière recherche de mises à jour sur le site <a href="http://punbb.informer.com/">punbb.informer.com</a> a échoué. Il est probable qu’il soit surchargé ou arrêté. Quoiqu’il en soit, si cette alerte persiste au delà de quelques jours, désactivez la recherche automatique des mises à jour et recherchez-les manuellement à l’avenir.',
 'Updates version n hf'		=>	'Une nouvelle version de PunBB, version %s, peut être téléchargée sur <a href="http://punbb.informer.com/">punbb.informer.com</a>. De plus, un ou des hotfixes sont disponibles sur l’onglet <a href="%s">Gérer les hotfixes</a> de l’interface d’administration.',
 'Updates version'			=>	'Une nouvelle version de PunBB, version %s, peut être téléchargée sur <a href="http://punbb.informer.com/">punbb.informer.com</a>.',
-'Updates hf'				=>	'Un ou des hotfixes sont disponibles sur l’onglet <a href="%s">Gérer les hotfixes</a> de l’interface d’administration.',
+'Updates hf'				=>	'Un ou des correctifs sont disponibles sur l’onglet <a href="%s">Gérer les hotfixes</a> de l’interface d’administration.',
 'Database mismatch'			=>	'Erreur de version de la base de données',
 'Database mismatch alert'	=>	'Votre base de données est prévue pour une version plus récente de PunBB. Cet écart peut affecter le fonctionnement de votre forum. Vous devriez mettre à jour PunBB avec la dernière version.',
 
