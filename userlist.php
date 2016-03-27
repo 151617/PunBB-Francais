@@ -12,7 +12,7 @@ $lang_ul = array(
 'User find legend'		=>	'Chercher un utilisateur',
 'Username'				=>	'Utilisateur',
 'Search for username'	=>	'Nom à rechercher',
-'Username help'			=>	'Peut être vide. Utilisez le caractère de substitution <strong>*</strong> pour une recherche partielle.',
+'Username help'			=>	'Peut être vide. Utilisez le joker <strong>*</strong> pour une recherche partielle.',
 'User group'			=>	'Utilisateurs du groupe',
 'Sort users by'			=>	'Trier la liste par',
 'User sort order'		=>	'Ordre de tri de la liste',
@@ -26,5 +26,5 @@ $lang_ul = array(
 'Submit user search'	=>	'Modifier les critères',
 'Title'					=>	'Rôle',
 'Posts'					=>	'Messages',
-'Perform new search'    =>  'Exécuter une nouvelle recherche d\'utilisateur'
+'Perform new search'    =>  'Exécuter une nouvelle recherche d’utilisateur'
 );
